@@ -8,11 +8,10 @@ y1= np.array([16,21,30,41])
 y2=np.array([22,32,43,51])
 y3=np.array([41,21,32,61])
 plt.grid(axis='both',color="violet",linestyle="dashed",linewidth=3)
-styles= dict(marker=".",markersize=21,
-         markerfacecolor="#406e4b",
-         markeredgecolor="#116e4b",
-         linestyle="dotted",linewidth=4
-         )
+styles= dict("marker":".","markersize":21,
+       "markerfacecolor":"#406e4b",
+         "markeredgecolor":"#116e4b",
+         "linestyle":"dotted","linewidth":4)
 plt.title("Class_Size", fontsize=26, family="Arial",fontweight="bold",color="black")
 plt.xlabel("Year",fontsize=21,family="Arial",fontweight="bold",color="blue")
 plt.ylabel("Students",fontsize=21,family="Arial",fontweight="bold",color="blue")
